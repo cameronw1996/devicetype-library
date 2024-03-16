@@ -1,0 +1,61 @@
+manufacturer: Adtran
+model: Total Access TA5004
+slug: ta5004
+default_platform: ADTRAN AOS
+part_number: 41875416F1
+u_height: 2.0
+is_full_depth: false
+subdevice_role: parent
+airflow: right-to-left
+comments: ''
+weight: null
+weight_unit: ''
+power-ports:
+- name: A
+  type: dc-terminal
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: ''
+- name: B
+  type: dc-terminal
+  maximum_draw: null
+  allocated_draw: null
+  label: ''
+  description: ''
+interfaces:
+- name: Management GbE
+  type: 1000base-t
+  enabled: true
+  mgmt_only: true
+  label: ''
+  description: Fan Module Ethernet Interface
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+module-bays:
+- name: '1'
+  label: Slot 1
+  position: '1'
+  description: ''
+- name: '2'
+  label: Slot 2
+  position: '2'
+  description: ''
+- name: '3'
+  label: Slot 3
+  position: '3'
+  description: ''
+- name: '4'
+  label: Slot 4
+  position: '4'
+  description: ''
+- name: A
+  label: SM-A
+  position: A
+  description: ''
+- name: B
+  label: SM-B
+  position: B
+  description: ''
